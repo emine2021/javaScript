@@ -38,7 +38,7 @@ console.log("yas" + yas - yas); //NaN not a number hatası alırız parantez ici
 //ternary
 const name = prompt("isminizi giriniz");
 const age = Number(prompt("yasinizi giriniz")); //string kabul eder basina +,number koyarsak number alır
-console.log(`yasiniz ${age}`);
+console.log(`yasiniz ${age}`); //template literals-string sablonları
 console.log(age > 18 ? "ehliyet alabilirsiniz" : "ehliyet alamazsiniz");
 age >= 18
   ? console.log(`${name} ehliyet alabilirsin`)
