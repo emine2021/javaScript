@@ -61,8 +61,8 @@ let i = 0;
 while (true) {
   i++;
   not = prompt(i + ". kisinin notunu giriniz : ");
-
-  if (not == "q" || not == "Q") {
+  not = not.toLocaleLowerCase();
+  if (not == "q") {
     break;
   }
   console.log(+not);
