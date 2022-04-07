@@ -46,3 +46,24 @@ for (let i = 2; i < sayi; i++) {
   asal = true;
 }
 console.log(asal ? "sayi asaldir" : "sayi asal degildir");*/
+/*
+let not;
+not = +prompt("1-100 arasında bir not giriniz : ");
+while (not < 0 || not > 100) {
+  console.error("girilen not 0-100 arasında olmalıdır");
+  not = +prompt("1-100 arasında bir not giriniz : ");
+}
+console.log("girdiginiz not 0-100 arasındadır");*/
+
+//not girisi yapılacak q ya basılana kadar not girisi devam edilecek
+let not;
+let i = 0;
+while (true) {
+  i++;
+  not = prompt(i + ". kisinin notunu giriniz : ");
+
+  if (not == "q" || not == "Q") {
+    break;
+  }
+  console.log(+not);
+}
