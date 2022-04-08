@@ -11,4 +11,4 @@ function hesapla() {
 }
 const buton = document.querySelector(".btn");
 buton.style.color = "red";
-buton.style.backgroundColor = "pink";
+buton.style.backgroundColor = "pink ";
