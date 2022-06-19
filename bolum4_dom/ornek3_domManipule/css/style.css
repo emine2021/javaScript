@@ -1,3 +1,19 @@
 .btn {
   width: 100px;
+  height: 40px;
+}
+.input-div {
+  margin-top: 35px;
+  background-color: rgb(239, 239, 189);
+}
+.textbox,
+.dil {
+  width: 300px;
+  height: 40px;
+}
+/*bu class js kodu içerisinde olusturuldu*/
+.yeni-h1 {
+  margin-top: "20px";
+  color: "red";
+  text-align: "left";
 }
