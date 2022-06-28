@@ -1,0 +1,19 @@
+.container {
+  width: 100vw; /* viewport width*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  padding: 1rem;
+  background-color: bisque;
+  border-radius: 15px;
+}
+.btn:hover {
+  background-color: rgb(159, 122, 76);
+}
+h1 {
+  background-color: white;
+}
