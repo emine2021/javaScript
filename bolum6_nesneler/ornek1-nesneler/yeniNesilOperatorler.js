@@ -28,3 +28,26 @@ console.log(id, urunAdi);
 const isimler = ["ahmet", "can", "veli"];
 const [kisi1, kisi2, kisi3] = isimler;
 console.log(kisi1, kisi2);
+//yeni nesil operatorler : SPREAD VEYA REST
+//Spread operatoru dizileri ve nesneleri birlestirmek veya ayırmak icin kullanılır
+//kullanmak icin dizinin onune ... karakterleri konur
+//dizilerde veya nesnelerde destructring yaparken geri kalanları secmek icin kullanılabilir
+//dizileri birlestirmek icin kullanılır
+const arabalar = ["bmw", "renault", "mercedes", "ferrari"];
+const [araba1, araba2, ...gerikalanlar] = arabalar; //rest islemi yaptı
+console.log(araba1, araba2);
+console.log(gerikalanlar);
+const personel = {
+  isim: "can",
+  soyad: "simit",
+  meslek: "developer",
+};
+const { meslek, isim, ...gerikalan } = personel;
+console.log(gerikalan);
+//DIZILERI BIRLESTIRMEK
+const araclar = ["ucak", "helikopter", "bisiklet"];
+const otomobiller = ["kamyon", "kamyonet", "otobus", "araba"];
+const yenidizi = [...araclar, ...otomobiller];
+const meyveler = ["kiraz", "armut", "seftali"];
+const turunc = ["limon", "portakal", ...meyveler];
+console.log(yenidizi);
